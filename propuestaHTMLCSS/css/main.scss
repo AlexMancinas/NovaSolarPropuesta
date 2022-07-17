@@ -1,0 +1,23 @@
+@import 'scss/variables', 'scss/pincipal', 'scss/images', 'scss/information','scss/footer';
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+    &::-webkit-scrollbar{
+        width: 8px;
+        
+       
+    }
+    &::-webkit-scrollbar-track {
+        background: #fff;        /* color of the tracking area */
+      }
+      
+    &::-webkit-scrollbar-thumb {
+        background-color: gray;    /* color of the scroll thumb */
+        border-radius: 20px;       /* roundness of the scroll thumb */
+        border: 3px solid gray;  /* creates padding around scroll thumb */
+      }
+}
